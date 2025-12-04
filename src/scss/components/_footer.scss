@@ -1,0 +1,44 @@
+@use "../variable";
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+    .search-bar{
+        position: relative;
+        border: 1px solid variable.$light-grey;
+        padding: 10px;
+        border-radius: 20px;
+        width: 80%;
+        input{
+            width: 70%;
+            background-color: transparent;
+            margin-left: 30px;
+            font-size: 1rem;
+        }
+        i{
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.6;
+
+        }
+    }
+
+    .new-note{
+        width: 20%;
+        margin-right: 5%;
+        button{
+            background-color: transparent;
+            color: white;
+            padding: 15px;
+            border: 1px solid variable.$light-grey;
+            border-radius: 50%;
+        }
+    }
+}

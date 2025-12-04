@@ -1,0 +1,3 @@
+node_modules/
+dist/
+src/css/*.css # optional: ignore compiled CSS if you wan

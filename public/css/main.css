@@ -1,0 +1,120 @@
+nav {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+nav i.fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(204, 204, 204, 0.1568627451);
+  border-radius: 50%;
+  box-shadow: -1px -1px 1px rgba(154, 152, 152, 0.493);
+}
+nav button {
+  background: rgba(204, 204, 204, 0.1568627451);
+  width: 60px;
+  height: 40px;
+  color: white;
+  border: 1px solid rgba(204, 204, 204, 0.231372549);
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px rgba(154, 152, 152, 0.493);
+  font-size: 1rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+.footer .search-bar {
+  position: relative;
+  border: 1px solid rgba(204, 204, 204, 0.1568627451);
+  padding: 10px;
+  border-radius: 20px;
+  width: 80%;
+}
+.footer .search-bar input {
+  width: 70%;
+  background-color: transparent;
+  margin-left: 30px;
+  font-size: 1rem;
+}
+.footer .search-bar i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.6;
+}
+.footer .new-note {
+  width: 20%;
+  margin-right: 5%;
+}
+.footer .new-note button {
+  background-color: transparent;
+  color: white;
+  padding: 15px;
+  border: 1px solid rgba(204, 204, 204, 0.1568627451);
+  border-radius: 50%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.931);
+  color: white;
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+main.main-page h1 {
+  font-size: 2.1rem;
+  margin-bottom: 20px;
+}
+main.main-page h3 {
+  margin-bottom: 10px;
+}
+main.main-page .folder-buttons {
+  width: 100%;
+  background-color: rgba(204, 204, 204, 0.1568627451);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border: 2px solid black;
+}
+main.main-page .folder-buttons span {
+  margin: 0 auto;
+  width: 80%;
+  border-bottom: 1px solid grey;
+}
+main.main-page .folder-buttons button {
+  display: block;
+  line-height: 1.7;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+main.main-page .folder-buttons button i {
+  color: orange;
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=main.css.map */

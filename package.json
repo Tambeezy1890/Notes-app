@@ -1,0 +1,11 @@
+{
+  "name": "notes-app-project",
+  "version": "1.0.0",
+  "scripts": {
+    "sass": "sass src/scss/main.scss public/css/main.css --watch",
+    "dev": "live-server --port=5500"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
