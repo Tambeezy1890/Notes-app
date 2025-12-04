@@ -1,11 +1,11 @@
-nav {
+nav.main-page {
   margin-bottom: 20px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 12px;
 }
-nav i.fa {
+nav.main-page i.fa {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@ nav i.fa {
   border-radius: 50%;
   box-shadow: -1px -1px 1px rgba(154, 152, 152, 0.493);
 }
-nav button {
+nav.main-page button {
   background: rgba(204, 204, 204, 0.1568627451);
   width: 60px;
   height: 40px;
@@ -26,6 +26,25 @@ nav button {
   font-size: 1rem;
 }
 
+.notes {
+  width: 100%;
+}
+.notes header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.notes header nav i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(204, 204, 204, 0.1568627451);
+  border-radius: 50%;
+  box-shadow: -1px -1px 1px rgba(154, 152, 152, 0.493);
+}
 .footer {
   position: absolute;
   bottom: 10px;

@@ -1,12 +1,13 @@
 @use "../variable";
 
 
-nav{
+nav.main-page{
     margin-bottom: 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 12px;
+
 
     i.fa{
     display: flex;             
@@ -28,5 +29,37 @@ nav{
         border-radius: 20px;
         box-shadow: 1px 1px 1px rgba(154, 152, 152, 0.493);
         font-size: 1rem;
+    }
+}
+
+.notes{
+    width: 100%;
+    header{
+
+        nav{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            i{
+                display: flex;             
+                align-items: center;       
+                justify-content: center;   
+                width: 40px;               
+                height: 40px;              
+                background-color: variable.$light-grey;
+                border-radius: 50%;     
+                box-shadow: -1px -1px 1px rgba(154, 152, 152, 0.493);  
+            }
+        }
+    }
+    .notes-meta{
+
+    }
+    .notes-grid{
+
+        .note-card{
+
+        }
     }
 }
